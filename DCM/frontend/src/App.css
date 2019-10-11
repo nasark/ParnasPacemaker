@@ -18,6 +18,7 @@ body,
 .title-container {
   display: inline-block;
   text-align: center;
+  text-decoration: none;
 }
 
 .box-controller {
@@ -30,7 +31,6 @@ body,
     height: 35px;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
     box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
-    margin-bottom: 30px;
     align-items: center;
     transition: visibility 0.5s ease-out;
 }
@@ -41,6 +41,11 @@ body,
     height: 100%;
     line-height: 2;
     cursor: pointer;
+    text-decoration: none;
+}
+.controller:hover {
+    color: #417cef;
+    text-decoration: none;
 }
 
 .selected-controller {
@@ -58,12 +63,27 @@ body,
     padding: 24px;
 }
 
+.interface-container {
+    display: inline-block;
+    flex-direction: row;
+    max-width: 700px;
+    min-width: 21em;
+    box-shadow: 0px 0px 20px 0px rgba(15, 15, 15, 0.2);
+    border-radius: 6px;
+    padding: 24px;
+}
+
 .inner-container {
     transition: visibility 0.2s ease-out;
 }
 
 .inner-container.show {
     visibility: visible;
+}
+
+.title:hover{
+    color: #cf5113;
+    text-decoration: none;
 }
 
 .header {
@@ -81,6 +101,7 @@ body,
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 .input-group {
@@ -88,6 +109,14 @@ body,
     flex-direction: column;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.input-group2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    text-align: left;
 }
 
 .login-label {
@@ -98,7 +127,7 @@ body,
 }
 
 .login-input {
-    height: 2.1em;
+    height: 5px;
     border-radius: 3px;
     border: 1px solid #70a1ff;
     transition: border 0.4s ease-out;
