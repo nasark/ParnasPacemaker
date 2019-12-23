@@ -4,6 +4,12 @@ Web application developed to allow users to configure and send programmable para
 
 ## Contributions
 
-UI:
+UI (ReactJS):
 
-Serial Communication:
+![alt text](https://github.com/nasark/ParnasPacemaker/blob/master/demo/demo1.png "First Demo")
+
+![alt text](https://github.com/nasark/ParnasPacemaker/blob/master/demo/demo2.png "Second Demo")
+
+
+Serial Communication (NodeJS):
+![alt text](https://github.com/nasark/ParnasPacemaker/blob/master/demo/74209163_436070697104085_7024972608122650624_n.png "Third Demo")
